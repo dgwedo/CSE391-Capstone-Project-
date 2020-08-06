@@ -39,3 +39,8 @@ a{
 	border-radius: 50px;
 	border: solid white 1px;
 }
+
+
+.a-content-inComponent:hover{
+	text-decoration-color: white;
+}
