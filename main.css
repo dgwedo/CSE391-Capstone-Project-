@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.logo{
+    padding: 0 30px;
+	color:white;
+	margin-bottom: 20px;
+}
+.logo svg{
+	width: 80%;
+}
+.list-group-item{
+    background-color:#040404;
+}
+a{
+    color: white;
+}
+.footer{
+	position: fixed;
+	background: linear-gradient(to right, rgb(192, 29, 192) , rgba(0, 110, 255, 0.699));
+	bottom: 0;
+	width: 100%;
+	height: 12vh;	
+}
+
+.button-footer{
+	border-radius: 50px;
+	border: solid white 1px;
+	margin-left: 150px;
+}
+.button-footer:hover{
+	color: blue;
+	border-radius: 50px;
+	border: solid white 1px;
+}
