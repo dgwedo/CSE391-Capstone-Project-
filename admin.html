@@ -17,52 +17,69 @@
 
 <body>
     <div class="container">
-        <!-- thêm -->
-        <h3>Thêm bài hát</h3>
 
-        <select id="muc">
-            <option value="bai hat da thich">bai hat da thich</option>
-            <option value="bang xep hang">bang xep hang</option>
-            <option value="tap trung">tap trung</option>
-            <option value="tam trang">tam trang</option>
-            <option value="nhac pho bien">nhac pho bien</option>
-            <option value="nhac nen cho ngoi nha cua ban">nhac nen cho ngoi nha cua ban</option>
-
-        </select>
-        <input type="text" placeholder="nhap ten bai hat">
+        <form action="">
+            <h3>option</h3>
+            <select id="muc">
+                <option value=1>them</option>
+                <option value=2>sua</option>
+                <option value=3>xoa</option>
+            </select>
 
 
 
-        <!-- sửa -->
-        <h3>Sửa bài hát</h3>
 
-        <select id="tuy chon">
-            <option value="bai hat da thich">bai hat da thich</option>
-            <option value="bang xep hang">bang xep hang</option>
-            <option value="tap trung">tap trung</option>
-            <option value="tam trang">tam trang</option>
-            <option value="nhac pho bien">nhac pho bien</option>
-            <option value="nhac nen cho ngoi nha cua ban">nhac nen cho ngoi nha cua ban</option>
+            <!-- thêm -->
+            <h3>Thêm bài hát</h3>
 
-        </select>
-        <input type="text" placeholder="nhap ten bai hat">
-        <input type="text" placeholder="sua ten bai hat">
+            <select id="them">
+                <option value="bai hat da thich">bai hat da thich</option>
+                <option value="bang xep hang">bang xep hang</option>
+                <option value="tap trung">tap trung</option>
+                <option value="tam trang">tam trang</option>
+                <option value="nhac pho bien">nhac pho bien</option>
+                <option value="nhac nen cho ngoi nha cua ban">nhac nen cho ngoi nha cua ban</option>
+
+            </select>
+            <input type="text" placeholder="nhap ten bai hat" id="them-bh">
 
 
 
-        <!-- xóa -->
-        <h3>Xóa bài hát</h3>
 
-        <select id="muc">
-            <option value="bai hat da thich">bai hat da thich</option>
-            <option value="bang xep hang">bang xep hang</option>
-            <option value="tap trung">tap trung</option>
-            <option value="tam trang">tam trang</option>
-            <option value="nhac pho bien">nhac pho bien</option>
-            <option value="nhac nen cho ngoi nha cua ban">nhac nen cho ngoi nha cua ban</option>
+            <!-- sửa -->
+            <h3>Sửa bài hát</h3>
 
-        </select>
-        <input type="text" placeholder="nhap ten bai hat">
+            <select id="sua">
+                <option value="bai hat da thich">bai hat da thich</option>
+                <option value="bang xep hang">bang xep hang</option>
+                <option value="tap trung">tap trung</option>
+                <option value="tam trang">tam trang</option>
+                <option value="nhac pho bien">nhac pho bien</option>
+                <option value="nhac nen cho ngoi nha cua ban">nhac nen cho ngoi nha cua ban</option>
+
+            </select>
+            <input type="text" placeholder="nhap ten bai hat" id="ten-bh">
+            <input type="text" placeholder="sua ten bai hat" id="sua-ten-bh">
+
+
+
+            <!-- xóa -->
+            <h3>Xóa bài hát</h3>
+
+            <select id="xoa">
+                <option value="bai hat da thich">bai hat da thich</option>
+                <option value="bang xep hang">bang xep hang</option>
+                <option value="tap trung">tap trung</option>
+                <option value="tam trang">tam trang</option>
+                <option value="nhac pho bien">nhac pho bien</option>
+                <option value="nhac nen cho ngoi nha cua ban">nhac nen cho ngoi nha cua ban</option>
+
+            </select>
+            <input type="text" placeholder="nhap ten bai hat" id="xoa-bh">
+
+            <br>
+            <input type="submit" value="Submit">
+        </form>
 
     </div>
     <!-- Optional JavaScript -->
