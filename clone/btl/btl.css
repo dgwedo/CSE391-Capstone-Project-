@@ -1,0 +1,142 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+	color:white;
+}
+li{
+	list-style: none;
+}
+.left , .right{
+	padding:0;
+}
+.menu-left{
+	padding: 15px;
+	background-color: #0a0a0a;
+	height: 100vh;
+}
+.menu-left .logo{
+	padding: 0 30px;
+	color:white;
+	margin-bottom: 20px;
+}
+.menu-left .logo svg{
+	width: 80%;
+}
+.left-nav li{
+	padding: 8px 5px;
+	border-radius: 5px;
+
+}
+.left-nav li i , .left-nav li svg{
+	margin: 0 10px;
+	min-width: 30px;
+}
+.left-nav li.active{
+	background-color: gray;
+}
+.left h6{
+	color: white;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 30px 0 20px 0;
+}
+.play-list li{
+	margin: 5px 0;
+	color: white;
+	opacity: .6;
+}
+.play-list li:hover{
+	opacity: 1;
+}
+.play-list li span{
+	padding: 0 10px;
+}
+.play-list li i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+}
+.play-list li:first-child i{
+	background-color: white;
+	color: black;
+}
+.play-list li:last-child i{
+	color: white;
+	background-image: linear-gradient(to bottom right , #cc66ff , white);
+}
+.empty-area{
+	padding:50px;
+}
+.cookie a{
+	font-size: 12px;
+}
+.content--nav{
+	display: flex;
+	justify-content: space-between;
+	background-color: 	#333333;
+	padding:5px 20px;
+	color: white;
+	align-items: center;
+}
+.content--nav i{
+	font-size: 28px;
+	display: inline-block;
+	min-width: 30px;
+	margin:0 10px;
+	cursor: pointer;
+}
+.regist{
+	border:none;
+	outline: none;
+	background:transparent;
+	color: white;
+	font-weight: 700;
+	padding: 8px 30px;
+	text-transform: uppercase;
+}
+.login{
+	padding: 8px 30px;
+	background:white;
+	color: black;
+	border-radius: 50px;
+	text-transform: uppercase;
+}
+.login:hover{
+	color: black;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	height: 15vh;
+	background: linear-gradient(to right, violet , lightblue);
+	display: flex;
+	align-items: center;
+}
+.footer > div > div div:last-child{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+.footer > div > div div:last-child button{
+	border:none;
+	outline: none;
+	padding: 5px 30px;
+	background: white;
+	border-radius: 100px;
+	color: blue;
+}

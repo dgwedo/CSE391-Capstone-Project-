@@ -1,0 +1,120 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.left{
+    background-color: #040404;
+}
+.right{
+	background-color: #121212;;
+}
+.logo{
+    padding: 0 30px;
+	color:white;
+	margin-bottom: 20px;
+}
+
+.list-group-item{
+	background-color:#040404;	
+}
+a,h6{
+    color: white;
+}
+.bottom-left>li>a{
+	font-size: 8px;
+}
+
+.button-sign-up{
+
+}
+.button-login{
+	background-color: white;
+	
+	border-radius: 50px;
+	width: 120px;
+}
+.a-content-inComponent:hover{
+	text-decoration-color: white;
+}
+
+.card-content{
+	width: 193.188px; 
+	height: 267.188px; 
+	background-color: #242424;
+	overflow:hidden
+} 
+
+/* mobile width<740 */
+@media only screen and (max-width:739px){
+	
+	.list-group-item{
+		margin-right: 0px ;
+		margin-left: 0px;
+		padding: 12px 1px;
+		font-size: 9px;
+	}
+	h6{
+		font-size: 20px;
+		margin-left: 2px;
+	}
+	.card-content{
+		width: 100.188px; 
+		height: 147.188px; 
+		background-color: #242424;
+		overflow:hidden
+	} 
+	strong{
+		font-size: 10px;
+	}
+	
+	
+	h3{
+		font-size: 20px;
+	}
+	#cua-r{
+		font-size: 20px;
+	}
+	
+}
+
+
+/* table 740<x<1024 */
+@media only screen and (min-width:740px) and (max-width:1023px){
+
+	h6{
+		font-size: 50px;
+		margin-left: 2px;
+	}
+	strong{
+		font-size: 20px;
+	}
+	
+	
+	h3{
+		font-size: 50px;
+	}
+	.card-content{
+		width: 100.188px; 
+		height: 147.188px; 
+		background-color: #242424;
+		overflow:hidden
+	} 
+	.list-group-item{
+		
+		font-size: 100px;
+	}
+}
+
+
+
+/* pc >1024 */
+@media only screen and (min-width:1024px){
+	h6{
+		margin-left: 20px;
+	}
+}

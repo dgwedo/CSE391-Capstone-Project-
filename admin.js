@@ -1,15 +1,25 @@
 $(document).ready(function () {
     // option = $("#muc").val()
     $("#btn-click").click(function () {
+        $("#all-bh div:first")
+            .clone()
+            .text("hhhhhhh")
+            .appendTo($('#all-bh'));
+        console.log($("#all-bh div:last"))
+
+
+
         option = $("#option").val()
         // them 
-        if (option == 1) {
+        if (option == "1") {
             // console.log(option)
             mucThem = $("#them").val()
             themBh = $("#them-bh").val()
             if (them == "bai hat da thich") {
                 //append
 
+
+                // c1
                 // $('#all-bh').append(
                 //     $('<div/>')
                 //         .attr("id", "div-bh")
@@ -31,7 +41,7 @@ $(document).ready(function () {
 
                 // );
 
-
+                // c2
                 // $('<div/>', {
                 //     id: 'div-bh',
                 //     "class": 'd-flex',
@@ -39,8 +49,9 @@ $(document).ready(function () {
                 // }).appendTo('.all-bh');
 
 
-                $("<div/>").attr('id', '#new').appendTo('#all-bh');
-                $("#new").html("áđasadsadsads");
+                // c3
+                // $("<div/>").attr('id', '#new').appendTo('#all-bh');
+                // $("#new").html("áđasadsadsads");
 
 
 
@@ -48,13 +59,13 @@ $(document).ready(function () {
             }
 
             //sua
-            if (option == 2) {
+            if (option == "2") {
                 // console.log(option)
 
 
             }
             //xoa
-            if (option == 3) {
+            if (option == "3") {
                 // console.log(option)
 
             }
